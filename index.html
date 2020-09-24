@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="registrationstyle.css">
+    <link rel="stylesheet" media="screen and (max-width:1150px)" href="responseform.css">
+    <link rel="stylesheet" media="screen and (min-width:500px) and (max-width:1024px)" href="ipad.css">
+</head>
+
+<body>
+    <section id="registration">
+
+        <form action="" id="formregistration">
+            <div class="respons">
+                <h3>Event Registration Form</h3>
+                <div class="name class">
+                    <label for="name" id="yourname">Your Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter Name">
+                </div>
+                <div class="email class">
+                    <label for="mail">Your Email</label>
+                    <input type="email" id="mail" name="Email" placeholder="Enter Email">
+                </div>
+                <div class="phone class">
+                    <label for="mobile">Mobile Number</label>
+                    <input type="tel" name="Phone" id="mobile" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                        placeholder="123-456-7890">
+                </div>
+                <div class="person class">
+                    <label for="person">NO.OF Persons</label>
+                    <select name="person" id="person">
+                        <optgroup label="Select Number">
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                            <option value="150">150</option>
+                            <option value="200">200</option>
+                            <option value="250">250</option>
+                            <option value="300">300</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div class="date">
+                    <label for="date">Date/Time</label>
+                    <input type="date" id="date" class="datemargin">
+                    <input type="time" id="date" class="time">
+                </div>
+            </div>
+            <div class="favourite1">
+                <p>Choose Your Favourite Food</p>
+                <div class="vegfood">
+                    <input type="radio" id="veg" name="favourit1">
+                    <label for="veg">Veg</label>
+                </div>
+                <div class="nonvegfood">
+                    <input type="radio" id="nonveg" name="favourit1">
+                    <label for="nonveg">Non-Veg</label>
+                </div>
+            </div>
+            <div class="favourite2">
+                <p>Choose Your Favourite Drink</p>
+                <div class="winedrink">
+                    <input type="radio" id="wine" name="favourit2">
+                    <label for="wine">Wine</label>
+                </div>
+                <div class="whiskydrink">
+                    <input type="radio" id="whisky" name="favourit2">
+                    <label for="whisky">Whisky</label>
+                </div>
+                <div class="deardrink">
+                    <input type="radio" id="bear" name="favourit2">
+                    <label for="bear">Bear</label>
+                </div>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Submit" id="btnregistration">
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>

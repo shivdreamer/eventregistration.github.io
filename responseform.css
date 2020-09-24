@@ -1,0 +1,66 @@
+
+    
+body {
+    background: url(background3.jpeg) no-repeat center/cover;
+    margin: 10px;
+}
+#registration {
+    height: 100vh;
+    width: 100vw;
+    border: none;
+    margin-top: 0.9rem;
+}
+#formregistration {
+    margin: 5px;
+    width: 100vw;
+}
+
+.respons input{
+    display: block;
+   
+}
+
+#formregistration #name{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80vw;
+}
+#formregistration #mail{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80vw;
+
+
+}
+#formregistration #mobile{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 80vw;
+
+
+}
+#formregistration #person{
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 50vw;
+
+
+}
+#formregistration #date{
+    width: 40vw;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#formregistration .favourite1 p,.favourite2 p {
+    display: block;
+}
+.button {
+    justify-content: flex-start;
+    margin-left: 10px;
+}

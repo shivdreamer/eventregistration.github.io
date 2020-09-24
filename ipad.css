@@ -1,0 +1,44 @@
+#formregistration {
+    width: 97vw;
+    height: 97vh;
+    margin: 5px;
+    margin-top: 1rem;
+    overflow: hidden;
+    border: 2px groove lightgray;
+}
+#formregistration h3 {
+    margin-top: 5px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#formregistration .class {
+    width: 80vw;
+    margin: auto;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+#formregistration #person {
+    width: 30vw;
+}
+#formregistration .date {
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+#formregistration .favourite1, .favourite2 {
+    /* width: 80vw; */
+    margin-left: 5rem;
+    font-size: 1.3rem;
+}
+.button {
+    margin-top: 5rem;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.button #btnregistration {
+    width: 7rem;
+    
+}
